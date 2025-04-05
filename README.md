@@ -47,7 +47,7 @@ A project focused on learning to **sum two handwritten MNIST digits** using mach
 - Practical skills in scikit-learn and dimensionality reduction for model analysis
 ---
 
-## 🎙️ Voice Flashcard Trainer (Hackathon Project) — [View Repo »](https://github.com/yourusername/voice-flashcard-trainer)
+## 🎙️ Voice Flashcard Trainer (Hackathon Project) — [View Repo »](https://github.com/jjkkk627/hackathon-nlp.git)
 
 Built in a 6-hour hackathon: a voice-based flashcard trainer using real-time speech input, LLMs, and audio feedback. Created using the [Pyneuphonic](https://github.com/neuphonic/pyneuphonic) API.
 
@@ -59,7 +59,7 @@ Built in a 6-hour hackathon: a voice-based flashcard trainer using real-time spe
 
 ---
 
-## Medical Imaging
+## Medical Imaging — [View Repo »](https://github.com/jjkkk627/medical-imaging.git)
 
 This project covers practical image processing and reconstruction techniques for three major imaging modalities:
 
@@ -79,7 +79,7 @@ This project covers practical image processing and reconstruction techniques for
 
 > Note: Visualizations are available in notebooks; data is public but not included due to size.
 ---
-## Bayesian Inference: Antikythera Mechanism
+## Bayesian Inference: Antikythera Mechanism — [View Repo »](https://github.com/jjkkk627/advanced-stats.git)
 
 Used Hamiltonian Monte Carlo to infer the original number of holes in the Antikythera mechanism’s calendar ring (an ancient astronomical device), based on X-ray measurements of its fragmented parts.
 
