@@ -6,7 +6,7 @@ Hi! I'm currently pursuing an MPhil in Data Intensive Science at Cambridge, with
 
 ## dual_autodiff Python package — [View Repo »]( https://github.com/jjkkk627/autodiff-with-dual-numbers.git)
 
-A Python package implementing forward-mode automatic differentiation using dual numbers, developed as part of a university assignment. The package supports elementary functions, operator overloading, and symbolic gradient computation via dual number algebra.
+A Python package implementing forward-mode automatic differentiation using dual numbers. The package supports elementary functions, operator overloading, and symbolic gradient computation via dual number algebra.
 
 ### Features:
 - Core `Dual` class implementing real + dual number arithmetic  
@@ -59,20 +59,39 @@ Built in a 6-hour hackathon: a voice-based flashcard trainer using real-time spe
 
 ---
 
-## Medical Imaging Projects *(Private)*
+## Medical Imaging
 
-I’ve completed coursework on:
-- 3D CT segmentation using U-Net-style architectures
-- Multi-coil MRI denoising using k-space data
+This project covers practical image processing and reconstruction techniques for three major imaging modalities:
 
-Due to dataset size and privacy restrictions, these projects aren’t publicly available, but I’d be happy to share code structure or logic privately.
+### PET-CT Reconstruction
+- Reconstructed CT and PET images from raw sinograms using FBP, OS-SART, and OSEM
+- Applied attenuation correction based on CT-derived attenuation maps
+- Compared iterative methods (OSEM vs MLEM) for PET image quality
 
+### MRI Denoising (Multi-Coil k-Space)
+- Visualized and denoised 3D MRI knee scans from multi-coil raw k-space data
+- Explored image-space and k-space denoising (Gaussian, bilateral, Butterworth filters)
+
+### CT Lung Nodule Segmentation & Radiomics
+- Extracted lung nodules from LIDC-IDRI dataset using custom binary thresholding
+- Calculated radiomic features (Energy, MAD, Uniformity)
+- Investigated benign vs malignant classification using histogram-based features
+
+> Note: Visualizations are available in notebooks; data is public but not included due to size.
 ---
+## Bayesian Inference: Antikythera Mechanism
 
+Used Hamiltonian Monte Carlo to infer the original number of holes in the Antikythera mechanism’s calendar ring (an ancient astronomical device), based on X-ray measurements of its fragmented parts.
+
+- Built a probabilistic model with transformations for fractured ring segments
+- Compared isotropic vs radial/tangential Gaussian error models
+- Implemented log-likelihood and gradients using JAX
+- Visualized posterior predictive distributions
+---
 ## What's Next
 
 This portfolio is growing as I explore more:
-- A Bayesian inference project modeling features of the Antikythera mechanism
+
 - Interpretability work on CNNs for chest X-rays
 
 Thanks for stopping by!
