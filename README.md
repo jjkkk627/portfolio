@@ -30,7 +30,7 @@ A project focused on learning to **sum two handwritten MNIST digits** using mach
   - Support Vector Machines
 - t-SNE visualizations on learned embedding space vs raw input  
 - Probability comparison using a weak linear classifier trained on combined vs sequentially applied images
-
+---
 ## 🎙️ Voice Flashcard Trainer (Hackathon Project) — [View Repo »](https://github.com/jjkkk627/hackathon-nlp.git)
 
 Built in a 6-hour hackathon: a voice-based flashcard trainer using real-time speech input, LLMs, and audio feedback. Created using the [Pyneuphonic](https://github.com/neuphonic/pyneuphonic) API.
